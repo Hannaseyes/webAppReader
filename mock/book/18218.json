@@ -1,0 +1,91 @@
+{
+    "comment": {
+        "top_comment": [
+            {
+                "status": 0,
+                "author_nick": "姗姗来迟的我遇到对的你",
+                "author": 1132622312,
+                "type": 0,
+                "rate": 5,
+                "object_id": 1048009,
+                "content": "好看！不过太贵了！希望续集！我还想看后面的续集！作者加油！请续集！",
+                "comment_count": 0,
+                "like_count": 7,
+                "create_time": 1471600994,
+                "author_icon": "https://s1.mi-img.com/mfsv2/avatar/fdsc3/p01sCtOFqJsq/0pcN1UbNK6cNUG.jpg",
+                "id": 3150925
+            }
+        ],
+        "top_comment_count": 4,
+        "all_comment_count": 59
+    },
+    "stats": {
+        "paid": 14648
+    },
+    "author_books": [],
+    "ips": [],
+    "item": {
+        "ad": 0,
+        "word_count": 878156,
+        "owner": 0,
+        "allow_discount": 0,
+        "ad_time": 0,
+        "click": 6092907,
+        "score_count": 147,
+        "title": "重生豪门贵女",
+        "id": 1048009,
+        "on_sale": true,
+        "comment_count": 59,
+        "has_ad": 0,
+        "ad_duration": 0,
+        "content": "她们是双生子，但却有着天壤之别！妹妹是家族宠儿，而她永远是家族累赘！直到被人迫害致死，她才幡然醒悟！男人说她痴心妄想、恬不知耻？哼，她不在乎！当光芒绽放于人前，曾经天之骄子的妹妹又如何？这次，任何人都休想再践踏她！",
+        "source": 2,
+        "latest_id": 256,
+        "score": 8.53,
+        "allow_free_read": 1,
+        "toc": [],
+        "rights_id": 10039,
+        "channel": [
+            2
+        ],
+        "updated": 1465813495,
+        "finish": true,
+        "tags": [
+            "现言",
+            "总裁豪门"
+        ],
+        "started": 1388136845,
+        "price": 5,
+        "chapter_count": 257,
+        "authors": "安想然",
+        "level": 0,
+        "categories": [
+            {
+                "category_id": 120000,
+                "label": "总裁世家"
+            },
+            {
+                "category_id": 120100,
+                "label": "总裁豪门"
+            },
+            {
+                "category_id": 18000000,
+                "label": "现代言情"
+            },
+            {
+                "category_id": 18000700,
+                "label": "豪门世家"
+            }
+        ],
+        "author_books_total": 1,
+        "created": 1367485199,
+        "rights": "潇湘书院",
+        "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p015ETO6Z9bJ/LtQ5CK8SBqhcKy.jpg",
+        "summary": "她们是双生子，但却有着天壤之别！妹妹是家族宠儿，而她永远是家族累赘！直到被人迫害致死，她才幡然醒悟！...",
+        "source_id": 18218,
+        "fiction_id": 18218,
+        "outer_id": "52bd3f0c25ccbf2f060e1248",
+        "latest": "番外八"
+    },
+    "result": 0
+}
