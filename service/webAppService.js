@@ -4,6 +4,21 @@ exports.get_test_data = function(){
 	return content;
 }
 
+// 章节数据
+exports.get_chapter_data = function(){
+	var content = fs.readFileSync('./mock/reader/chapter.json','utf-8');
+	return content;
+}
+
+// 章节内数据
+exports.get_chapter_content_data = function(id){
+	if (!id) {
+		id = "1";
+	}
+	var content = fs.readFileSync('./mock/reader/data/data' + id + ".json",'utf-8');
+	return content;
+}
+
 // 主页
 exports.get_index_data = function(){
 	var content = fs.readFileSync('./mock/home.json','utf-8');

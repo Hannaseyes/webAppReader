@@ -3,89 +3,135 @@
         "top_comment": [
             {
                 "status": 0,
-                "author_nick": "姗姗来迟的我遇到对的你",
-                "author": 1132622312,
-                "type": 0,
+                "author_nick": "无情",
+                "author": 953789943,
+                "author_icon": "https://s1.mi-img.com/mfsv2/avatar/fdsc3/p01K1Hx3annC/YjQ3kLiP9gkmoU.jpg",
+                "comment_count": 4,
+                "object_id": 1712119,
+                "content": "跟新的快一点，太慢了，大哥能不能跟新的多一点那？",
                 "rate": 5,
-                "object_id": 1048009,
-                "content": "好看！不过太贵了！希望续集！我还想看后面的续集！作者加油！请续集！",
-                "comment_count": 0,
-                "like_count": 7,
-                "create_time": 1471600994,
-                "author_icon": "https://s1.mi-img.com/mfsv2/avatar/fdsc3/p01sCtOFqJsq/0pcN1UbNK6cNUG.jpg",
-                "id": 3150925
+                "like_count": 51,
+                "create_time": 1465887834,
+                "type": 0,
+                "id": 2847883
             }
         ],
         "top_comment_count": 4,
-        "all_comment_count": 59
+        "all_comment_count": 200
     },
     "stats": {
-        "paid": 14648
+        "paid": 26094
     },
-    "author_books": [],
-    "ips": [],
+    "author_books": [
+        {
+            "ad": 0,
+            "word_count": 268753,
+            "owner": 0,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "大学霸系统",
+            "new_tags": [
+                "爆笑",
+                "学生",
+                "系统流",
+                "赚钱"
+            ],
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 0,
+            "click": 3068,
+            "latest_id": 129,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10080,
+            "channel": [
+                1
+            ],
+            "updated": 1505612241,
+            "finish": false,
+            "tags": [
+                "都市",
+                "异术超能"
+            ],
+            "price": 5,
+            "chapter_count": 130,
+            "authors": "天兵",
+            "categories": [
+                {
+                    "category_id": 5000000,
+                    "label": "都市"
+                },
+                {
+                    "category_id": 5000300,
+                    "label": "异术超能"
+                }
+            ],
+            "rights": "阅文集团旗下创世中文网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01K8fDuFV8q/iVVbqTkkIsrDGI.jpg",
+            "summary": "【最热火书，千万追读】江小天意外获得学霸系统，人生从此彻底改变。\r\n透视，追溯，治疗……无所不能\r\n...",
+            "fiction_id": 398524,
+            "outer_id": "7943609604749903",
+            "latest": "第130章 奇迹呈现"
+        }
+    ],
     "item": {
         "ad": 0,
-        "word_count": 878156,
+        "word_count": 2059623,
         "owner": 0,
         "allow_discount": 0,
         "ad_time": 0,
-        "click": 6092907,
-        "score_count": 147,
-        "title": "重生豪门贵女",
-        "id": 1048009,
-        "on_sale": true,
-        "comment_count": 59,
-        "has_ad": 0,
         "ad_duration": 0,
-        "content": "她们是双生子，但却有着天壤之别！妹妹是家族宠儿，而她永远是家族累赘！直到被人迫害致死，她才幡然醒悟！男人说她痴心妄想、恬不知耻？哼，她不在乎！当光芒绽放于人前，曾经天之骄子的妹妹又如何？这次，任何人都休想再践踏她！",
+        "click": 14454200,
+        "score_count": 270,
+        "rights": "阅文集团旗下创世中文网",
+        "title": "终极小农民",
+        "on_sale": true,
+        "comment_count": 200,
+        "has_ad": 0,
+        "id": 1712119,
+        "content": "赵小林一贫如洗，家里还有瘫痪在床的老娘，被人指着鼻子骂癞蛤蟆想吃天鹅肉。莫笑少年穷！一切因为一根金手指而改变，种庄稼，种蔬菜，种药材，种水果？想种什么种什么！瘫痪，心脏病，癌症绝症疑难症，小爷我手到病除！我要做村里，县里，全世界最有钱的人！要娶村里，县里，全世界最漂亮最好的姑娘！",
         "source": 2,
-        "latest_id": 256,
-        "score": 8.53,
+        "latest_id": 993,
+        "score": 6.91,
         "allow_free_read": 1,
         "toc": [],
-        "rights_id": 10039,
+        "rights_id": 10080,
         "channel": [
-            2
+            1
         ],
-        "updated": 1465813495,
+        "updated": 1495591898,
         "finish": true,
         "tags": [
-            "现言",
-            "总裁豪门"
+            "都市生活",
+            "都市"
         ],
-        "started": 1388136845,
+        "started": 1461208422,
         "price": 5,
-        "chapter_count": 257,
-        "authors": "安想然",
-        "level": 0,
+        "chapter_count": 994,
+        "authors": "天兵",
         "categories": [
             {
-                "category_id": 120000,
-                "label": "总裁世家"
+                "category_id": 5000000,
+                "label": "都市"
             },
             {
-                "category_id": 120100,
-                "label": "总裁豪门"
-            },
-            {
-                "category_id": 18000000,
-                "label": "现代言情"
-            },
-            {
-                "category_id": 18000700,
-                "label": "豪门世家"
+                "category_id": 5000100,
+                "label": "都市生活"
             }
         ],
-        "author_books_total": 1,
-        "created": 1367485199,
-        "rights": "潇湘书院",
-        "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p015ETO6Z9bJ/LtQ5CK8SBqhcKy.jpg",
-        "summary": "她们是双生子，但却有着天壤之别！妹妹是家族宠儿，而她永远是家族累赘！直到被人迫害致死，她才幡然醒悟！...",
-        "source_id": 18218,
-        "fiction_id": 18218,
-        "outer_id": "52bd3f0c25ccbf2f060e1248",
-        "latest": "番外八"
+        "author_books_total": 2,
+        "level": 0,
+        "created": 1461210440,
+        "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01nZVrQIO95/vwhcqgC9jjdILC.jpg",
+        "summary": "赵小林一贫如洗，家里还有瘫痪在床的老娘，被人指着鼻子骂癞蛤蟆想吃天鹅肉。莫笑少年穷！一切因为一根金手...",
+        "source_id": 319544,
+        "fiction_id": 319544,
+        "outer_id": "3795357004967703",
+        "latest": "第994章 大结局"
     },
+    "ips": [],
     "result": 0
 }

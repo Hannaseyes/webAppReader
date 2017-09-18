@@ -249,21 +249,21 @@
 					<section class="main-card" style="border-bottom: none;">
 						<div class="u-book detail">
 							<div class="book-cover">
-								<img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p018JfdElmhO/dXn0ucFVXpvWV4.jpg!s"/>
+								<img alt="{{ item.title }}" v-bind:src="item.cover"/>
 							</div>
 							<div class="info">
-								<h3 class="title">都市佣兵之王</h3>
+								<h3 class="title">{{ item.title }}</h3>
 								<p class="author">
 									<span class="author">
-										一壶茶水
+										{{ item.authors }}
 									</span>
 								</p>
 								<div class="u-grade">
-									<span class="read">12 个评价</span>
+									<span class="read">{{ item.score_count }} 个评价</span>
 								</div>
-								<p class="price">价格：1书币/千字</p>
+								<p class="price">价格：{{ item.price }}书币/千字</p>
 								<p calss="count">
-									字数：70999字
+									字数：{{ item.word_count }}字
 									<span class="u-booktag serial">连载中</span>
 								</p>
 							</div>
@@ -273,7 +273,7 @@
 						<div class="book-dash">
 							<div class="wrap">
 								<ul class="btn-group">
-									<li class="u-btn2" onclick="location.href='/reader'">
+									<li class="u-btn2" v-on:click="readBook()">
 										<span class="book-dash-text"></span>
 									</li>
 								</ul>
@@ -281,14 +281,11 @@
 						</div>
 						<div class="u-folder">
 							<div class="folder-cnt">
-								昔日龙魂少组，国际顶尖雇佣兵公认的王者，被便宜老丈人揪回都市，娶了个冰山女神老婆。
-被老婆嫌弃不要紧，自有麻辣警花、妩媚上司、傲娇萝莉、甜美大学生送上门。
-女人多了麻烦也多，同样不要紧，哥最不缺的就是解决麻烦的实力！
-林飞的人生格言：问世间情为何物，只叫人脱衣脱裤！
+								{{ item.content }}
 							</div>
 							<div class="folder-tail">
 								<div>
-									最新：暂无
+									最新：{{ item.latest }}
 								</div>
 							</div>
 						</div>
@@ -300,8 +297,8 @@
 							</div>
 							<div class="folder-cnt">
 								<ul class="m-tag color">
-									<li class="u-tag">
-										寻墓探险
+									<li class="u-tag" v-for="tag in item.tags" >
+										{{ tag }}
 									</li>
 								</ul>
 							</div>
@@ -313,13 +310,13 @@
 						</div>
 						<div class="cnt">
 							<ul class="book-table">
-								<li>
+								<li v-for="book in author_books">
 									<div class="u-book vertical">
 										<div class="book-cover">
-											<img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tn9xOkP8V/lupJdQ9PuEk89M.jpg!s"/>
+											<img alt="{{ book.title }}" v-bind:src="book.cover"/>
 										</div>
 										<div class="info">
-											<h3 class="title">盗墓笔记</h3>
+											<h3 class="title">{{ book.title }}</h3>
 										</div>
 									</div>
 								</li>
@@ -332,36 +329,26 @@
 						</div>
 						<div class="cnt">
 							<ul class="book-table">
-								<li>
+								<li v-for="book in related">
 									<div class="u-book vertical">
 										<div class="book-cover">
-											<img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tn9xOkP8V/lupJdQ9PuEk89M.jpg!s"/>
+											<img alt="book.title" v-bind:src="book.cover"/>
 										</div>
 										<div class="info">
-											<h3 class="title">盗墓笔记</h3>
+											<h3 class="title">{{ book.title }}</h3>
 										</div>
 									</div>
 								</li>
-								<li>
-									<div class="u-book vertical">
-										<div class="book-cover">
-											<img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tn9xOkP8V/lupJdQ9PuEk89M.jpg!s"/>
-										</div>
-										<div class="info">
-											<h3 class="title">盗墓笔记</h3>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="u-book vertical">
-										<div class="book-cover">
-											<img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tn9xOkP8V/lupJdQ9PuEk89M.jpg!s"/>
-										</div>
-										<div class="info">
-											<h3 class="title">盗墓笔记</h3>
-										</div>
-									</div>
-								</li>
+							</ul>
+						</div>
+					</section>
+					<section  class="main-card folder">
+						<div class="u-title">
+							<h1>图书信息</h1>
+						</div>
+						<div class="cnt">
+							<ul>
+								<li>版权：{{ item.rights }}</li>
 							</ul>
 						</div>
 					</section>
