@@ -7,20 +7,22 @@
 	<ul class="list-h5">
 		<li v-for="item in hot">
 			<div class="book-h5">
-				<div class="book-h5-cover">
-					<img alt="{{ item.title }}" v-bind:src="item.cover" />
-					<p class="book-h5-finish">完结</p>
-				</div>	
-				<div class="book-h5-info">
-					<p class="book-h5-title">{{ item.title }}</p>
-					<p class="book-h5-author">{{ item.authors }}</p>
-					<p class="book-h5-summary">{{ item.summary }}</p>
-					<div class="book-h5-wrap">
-						<div class="book-h5-tag" v-for="tag in item.tags">
-							{{ tag }}
+				<a href="/book?id={{ item.fiction_id }}">
+					<div class="book-h5-cover">
+						<img alt="{{ item.title }}" v-bind:src="item.cover" />
+						<p class="book-h5-finish">完结</p>
+					</div>	
+					<div class="book-h5-info">
+						<p class="book-h5-title">{{ item.title }}</p>
+						<p class="book-h5-author">{{ item.authors }}</p>
+						<p class="book-h5-summary">{{ item.summary }}</p>
+						<div class="book-h5-wrap">
+							<div class="book-h5-tag" v-for="tag in item.tags">
+								{{ tag }}
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</li>
 	</ul>

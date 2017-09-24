@@ -94,6 +94,16 @@ app.use(controller.get('/ajax/rank',function*(){
 	this.body = service.get_rank_data();
 }));
 
+app.use(controller.get('/ajax/male', function*(){
+	this.set('Cache-Control', 'no-cache');
+	this.body = service.get_male_data();
+}));
+
+app.use(controller.get('/ajax/female', function*(){
+	this.set('Cache-Control', 'no-cache');
+	this.body = service.get_female_data();
+}));
+
 // 书籍
 app.use(controller.get('/ajax/book',function*(){
 	this.set('Cache-Control','no-cache');

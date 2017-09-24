@@ -31,13 +31,27 @@ exports.get_rank_data = function(){
 	return content;
 }
 
+exports.get_male_data = function(channelId) {
+	var content = fs.readFileSync('./mock/channel/male.json', 'utf-8');
+	return content;
+}
+
+exports.get_female_data = function(channelId) {
+	var content = fs.readFileSync('./mock/channel/female.json', 'utf-8');
+	alert(content);
+	return content;
+}
+
 // 书籍
 exports.get_book_data = function(id){
-	if(!id){
+	if (!id) {
 		id = "18218";
 	}
-	var content = fs.readFileSync('./mock/book/' + id + '.json','utf-8');
-	return content;
+	if (fs.existsSync('./mock/book/' + id + '.json')) {
+		return fs.readFileSync('./mock/book/' + id + '.json','utf-8');
+	} else {
+		return fs.readFileSync('./mock/book/18218.json','utf-8');
+	}
 }
 
 exports.get_search_data = function(start,end,keyword){
